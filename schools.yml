@@ -21,5 +21,7 @@ spring:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
-
+application:
+  config:
+    student-url: http://localhost:8081
 
