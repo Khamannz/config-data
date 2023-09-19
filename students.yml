@@ -1,11 +1,11 @@
 message: Hello kha mannz
 
-# eureka:
-#   instance:
-#     hostname: localhost
-#   client:
-#     service-url:
-#       defaultZone: http://localhost:8761/eureka
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
 
 server:
   port: 8081
@@ -21,5 +21,9 @@ spring:
       ddl-auto: update
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  application:
+  config:
+    student-url: http://localhost:8081
 
 
