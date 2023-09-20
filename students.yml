@@ -23,3 +23,10 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 
+  endpoints:
+    web:
+      exposure:
+        - include: refresh
+
+
+
