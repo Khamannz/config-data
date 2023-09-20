@@ -1,8 +1,8 @@
 message: 1212121 kha mannz
 
-eureka:
-  instance:
-    hostname: localhost
+# eureka:
+#   instance:
+#     hostname: localhost
 #   client:
 #     service-url:
 #       defaultZone: http://localhost:8761/eureka
