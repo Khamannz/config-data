@@ -27,9 +27,9 @@ management:
       exposure:
         include: refresh
 
-  spring:
-    application:
-      name: students
+spring:
+  application:
+    name: students
 
 
 
