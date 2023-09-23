@@ -10,7 +10,6 @@ eureka:
 # server:
 #   port: 8081
 
-spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/students
@@ -27,6 +26,11 @@ management:
     web:
       exposure:
         include: refresh
+
+  spring:
+    application:
+      name: students
+
 
 
 
