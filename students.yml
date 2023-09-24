@@ -1,11 +1,11 @@
 message:  kha mannz 3
 
 eureka:
-  instance:
-    hostname: students
+#   instance:
+#     hostname: students
   client:
     service-url:
-      defaultZone: http://students:8761/eureka
+      defaultZone: http://localhost:8761/eureka
 
 # server:
 #   port: 8081
